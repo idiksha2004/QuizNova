@@ -1,0 +1,1 @@
+console.log("QuizNova script loaded.");

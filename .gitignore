@@ -1,0 +1,18 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore node/npm artifacts if used in future
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore PHPStorm / VSCode IDE settings
+.idea/
+.vscode/
+
+# WordPress core files (if working in WP root)
+wp-config.php
+.htaccess
+
+# Environment configs
+.env
