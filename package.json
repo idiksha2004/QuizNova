@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "lucide-react": "file:...",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "lucide-react": "...",
-    "recharts": "...",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "recharts": "file:..."
   },
   "scripts": {
     "start": "react-scripts start",
