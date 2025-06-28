@@ -1,1 +1,11 @@
-body { font-family: Arial, sans-serif; }
+/**
+ * QuizNova Admin Styles
+ *
+ * This file can be used to add any custom CSS for the admin interface
+ * that isn't handled by the React components' styling.
+ */
+
+/* Ensure the React app container takes up the full available space */
+#quiznova-admin-app {
+    margin-right: 20px; /* Adjust for WordPress admin menu */
+}
