@@ -459,12 +459,6 @@ export default function App() {
 
   return (
     <div className="flex bg-gray-100 font-sans">
-      <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
-        body { font-family: 'Inter', sans-serif; }
-        .animate-fade-in { animation: fadeIn 0.5s ease-in-out; }
-        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-      `}</style>
       <Sidebar activePage={activePage} setActivePage={setActivePage} />
       <main className="flex-1">
         <Header title={getPageTitle()} onActionClick={handleCreateNew} />
